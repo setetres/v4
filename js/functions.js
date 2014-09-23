@@ -22,7 +22,12 @@ $(document).ready(function(){
 
     // window load
 
+    $('.browserTabs li:first-child').addClass('active');
+    $('.browserTabs li.right').addClass('active');
+
     $(window).load(function(){
+        $('.browserTabs li:first-child').addClass('active');
+        $('.browserTabs li.right').addClass('active');
     });
 
     // window resize
