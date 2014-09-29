@@ -50,6 +50,7 @@ $(document).ready(function(){
     $('.logo a').click(function(){
         $('.browserTabs li').removeClass('active');
         $('.browserTabs li:nth-child(1)').addClass('active');
+        $('.browserTabs li.right').addClass('active');
     });
 
     $('.browserTabs li a').click(function(){
