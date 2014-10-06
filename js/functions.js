@@ -5,7 +5,7 @@ $(document).ready(function(){
     $.ajax({
         type: "GET",
         //url: "http://api.tumblr.com/v2/tagged?tag=gif",
-        url: "http://api.tumblr.com/v2/blog/stream.setetres.st/posts/photo?offset=" + Math.floor(Math.random() * 501),
+        url: "http://api.tumblr.com/v2/blog/random.setetres.st/posts/photo?offset=" + Math.floor(Math.random() * 501),
         dataType: "jsonp",
         data: {
             api_key: "TOkL9fw31Ighuo3zysLk5j1ZrksrJclrViAfXJReJdMrt2GYvf"
