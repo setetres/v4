@@ -1,24 +1,8 @@
 $(document).ready(function(){
 
-    // tumblr
 
-    $.ajax({
-        type: "GET",
-        //url: "http://api.tumblr.com/v2/tagged?tag=gif",
-        url: "http://api.tumblr.com/v2/blog/random.setetres.st/posts/photo?offset=" + Math.floor(Math.random() * 501),
-        dataType: "jsonp",
-        data: {
-            api_key: "TOkL9fw31Ighuo3zysLk5j1ZrksrJclrViAfXJReJdMrt2GYvf"
-        }
-    }).done(function(data){
-        var url = $.rand(data.response.posts);
-        var alt = url.photos[0].alt_sizes[0];
-        url = alt.width == 1280 ? alt.url : url.photos[0].original_size.url;
-        console.log(url);
-        console.log($.rand(data.response.posts));
-        $('.wr.white').css('background-image', 'url(' + url + ')');
-        $('.wr.white').css('background-size', 'cover');
-    });
+    $('.wr.white').css('background-image', 'url(http://31.media.tumblr.com/e7cd556f95d3b10c1c65d5d46ded36ea/tumblr_mzf88uEJ571s1t9sxo1_500.gif)');
+    $('.wr.white').css('background-size', 'cover');
 
     // window load
 
