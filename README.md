@@ -1,4 +1,4 @@
-v4
+v4 [![Github License](https://img.shields.io/github/license/setetres/v4.svg)](https://raw.githubusercontent.com/setetres/v4/master/LICENSE)
 ==
 
 v4.0 of my website. [http://v4.setetres.st]
