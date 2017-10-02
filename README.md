@@ -1,8 +1,7 @@
-v4 [![Github License](https://img.shields.io/github/license/setetres/v4.svg)](https://github.com/setetres/v4/blob/master/LICENSE)
-==
-
-| [![v4](https://setetres.s3.amazonaws.com/setetres.st/img/share-v4.png?v=1&raw=true)](http://v4.setetres.st) |
+| [![v4](https://setetres.s3.amazonaws.com/setetres.st/img/share-v4.png?v=2&raw=true)](http://v4.setetres.st) |
 | ----------------------------------------------------------------------------------------------------------- |
+
+[![Github License](https://img.shields.io/github/license/setetres/v4.svg)](https://github.com/setetres/v4/blob/master/LICENSE)
 
 License
 -------
